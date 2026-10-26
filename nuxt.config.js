@@ -3,7 +3,8 @@ import config from "./config";
 const { host, port } = config;
 
 export default {
-  mode: "spa",
+  ssr: false,
+  target: "static",
   /*
    ** Router base for github pages deployment.
    ** Need Documentation
