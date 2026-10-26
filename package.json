@@ -20,5 +20,8 @@
     "@nuxtjs/vuetify": "^1.0.0",
     "vue-particles": "^1.0.9",
     "webpack": "^4.46.0"
+  },
+  "overrides": {
+    "webpack": "^4.47.0"
   }
 }
